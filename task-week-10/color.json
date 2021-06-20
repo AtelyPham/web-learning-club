@@ -1,0 +1,10 @@
+{
+    "background-color": "#ffffff",
+    "color": "#000000",
+    "primary": "#0d6efd",
+    "secondary": "#adb5bd",
+    "success": "#198754",
+    "danger": "#dc3545",
+    "warning": "#ffc107",
+    "info": "#0dcaf0"
+}
