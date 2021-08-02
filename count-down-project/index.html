@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Count Down</title>
+  </head>
+  <body>
+    <form action="#" id="form">
+      <label for="minute">Minute:</label>
+      <input type="number" name="minute" id="minute" value="0" /><br /><br />
+      <label for="second">Second:</label>
+      <input type="number" name="second" id="second" value="0" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <div class="clock">
+      <span class="minute-value">00</span>:
+      <span class="second-value">00</span>
+    </div>
+    <div class="buttons">
+      <button class="start-btn">Start</button>
+      <button class="stop-btn">Stop</button>
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
